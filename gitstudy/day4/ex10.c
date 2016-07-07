@@ -12,6 +12,7 @@ int main()
 	double acc_tick = 0;
 	double acc_tick2 = 0;
 
+
 	while(1)
 	{
 		clock_gettime(CLOCK_MONOTONIC,&work_timer);
@@ -31,8 +32,10 @@ int main()
 			acc_tick2 = 0;
 		}
 
-		printf("%d %d \r",nCount,nCount2);
+
+		printf("%d %d\r",nCount,nCount2);
 		///nCount++;
-		
+
 	}
 }
+
