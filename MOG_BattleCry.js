@@ -47,7 +47,9 @@
 　　Imported.NoctisFL_BattleVoice = true;
 　　var Moghunter = Moghunter || {}; 	
 	Moghunter.parameters = PluginManager.parameters('NoctisFL_BattleVoice');
-	Moghunter.v_volume = Number(Moghunter.parameters['Volume'] || 100);
+	Moghunter.v_volume = Number(Moghunter.parameters['Volume'] || 90);
+	Moghunter.v_pitch = Number(Moghunter.parameters['Pitch'] || 100);
+	Moghunter.v_pan = Number(Moghunter.parameters['Pan'] || 0);
     //아군 전용 패러미터
 	Moghunter.v_actor_start = [];
 	Moghunter.v_actor_turn = [];
